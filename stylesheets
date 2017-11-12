@@ -1,0 +1,180 @@
+@import url(./tippy.css);
+@import url(./slick-theme.css);
+@import url(./slick.css);
+@import url(./timeline.css);
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Saira");
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  padding: 0px;
+  font: 14px "Saira", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 100%; }
+
+a {
+  color: #00B7FF; }
+
+.cursorOnHover {
+  cursor: pointer; }
+
+.iframe-video-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .iframe-video-container .iframe-video {
+    position: absolute;
+    top: 25%;
+    left: 25%; }
+
+div#homepage {
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out; }
+
+#loading-img {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out; }
+
+.main-content {
+  position: relative;
+  height: inherit;
+  width: 80%;
+  float: right;
+  overflow: auto;
+  flex: 1;
+  color: #FFFFFF; }
+  .main-content .separator {
+    width: 70%;
+    border-style: ridge;
+    margin: 20px auto; }
+  .main-content .main-background {
+    background-color: #B7AFA3;
+    background-image: url("../images/background.jpg");
+    top: 50px;
+    left: 20%;
+    z-index: -1;
+    filter: grayscale(50%) blur(5px) brightness(75%);
+    opacity: 0.8;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    position: fixed; }
+  .main-content .intro {
+    filter: "";
+    padding: 60px 60px 10px 60px;
+    height: fit-content; }
+    .main-content .intro .intro-hi {
+      font-size: 40px; }
+    .main-content .intro span {
+      font-style: italic;
+      color: #DFEFF0; }
+    .main-content .intro span.mc-full {
+      font-style: normal;
+      color: #F5FAFA; }
+    .main-content .intro span:hover {
+      color: #AD235E;
+      cursor: pointer; }
+  .main-content .story {
+    padding: 5% 5% 5% 5%;
+    text-align: center; }
+    .main-content .story .title {
+      color: #F5FAFA;
+      font-size: 31px; }
+    .main-content .story .text {
+      color: #F5FAFA; }
+  .main-content .image-slider-pretext {
+    text-align: center;
+    padding: 0px 80px 5px 80px; }
+  .main-content .image-slide-container {
+    margin: 7% 0% 7% 0%; }
+  .main-content .image-slide {
+    box-shadow: inset -4px -4px 5px 1px #DBA632;
+    padding: 2px;
+    border-radius: 9%;
+    max-width: 40%;
+    margin-left: 29%; }
+  .main-content .image-slider {
+    top: 4%;
+    max-width: 60%;
+    left: 20%; }
+  .main-content .slick-center {
+    text-align: center; }
+
+.left-nav {
+  left: 0px;
+  position: fixed;
+  background-color: #F5FAFA;
+  width: 20%;
+  height: inherit;
+  float: left;
+  flex: 1; }
+  .left-nav .separator {
+    margin-top: 18%;
+    width: 80%;
+    border-style: ridge;
+    margin: 20px auto; }
+  .left-nav .bio-section {
+    min-height: 425px;
+    max-height: 72%;
+    padding-left: 10px; }
+    .left-nav .bio-section .intro-pos {
+      padding-bottom: 15px;
+      padding-right: 15px; }
+    .left-nav .bio-section .contact-text {
+      padding-top: 5px;
+      float: left; }
+    .left-nav .bio-section .contact-icon-container {
+      float: right; }
+      .left-nav .bio-section .contact-icon-container .contact-icon {
+        width: 30px;
+        padding-right: 10px; }
+    .left-nav .bio-section .contact-icon:hover {
+      opacity: 0.5;
+      cursor: pointer; }
+    .left-nav .bio-section .resume {
+      padding-bottom: 15px; }
+  .left-nav .profile-container {
+    left: 0px;
+    top: 0px;
+    margin-bottom: 14%;
+    text-align: center;
+    padding: 1%; }
+    .left-nav .profile-container .profile-image {
+      margin-top: 20%;
+      border-radius: 50%;
+      width: 50%;
+      overflow: hidden;
+      background-color: maroon;
+      padding: 1px; }
+
+.footer {
+  width: 100%;
+  height: 5%;
+  top: 95%;
+  position: fixed; }
+  .footer .clock-container {
+    width: 20%;
+    float: left; }
+    .footer .clock-container .clock {
+      font-family: 'Orbitron', sans-serif;
+      width: 50%;
+      text-align: center;
+      float: left; }
+    .footer .clock-container .clock + .clock {
+      float: right; }
+  .footer .copyright {
+    float: right;
+    margin-right: 20px;
+    margin-top: 11px; }
+
+/*# sourceMappingURL=style.css.map */
